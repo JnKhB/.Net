@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="motor.jpg" />
+    <None Remove="motorCycle.jpg" />
+    <None Remove="petrol.jpg" />
+    <None Remove="Sources\motor.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Sources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="motorCycle.jpg" />
+    <Resource Include="petrol.jpg" />
+  </ItemGroup>
+
+</Project>

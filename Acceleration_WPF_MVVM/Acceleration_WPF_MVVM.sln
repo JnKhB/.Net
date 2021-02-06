@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acceleration_WPF_MVVM", "Acceleration_WPF_MVVM\Acceleration_WPF_MVVM.csproj", "{B7BE68F6-5081-4638-8631-8CFD57A94591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccelerationTest", "AccelerationTest\AccelerationTest.csproj", "{4CA6570C-53A0-4A34-B756-9FCD27196A79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7BE68F6-5081-4638-8631-8CFD57A94591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BE68F6-5081-4638-8631-8CFD57A94591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BE68F6-5081-4638-8631-8CFD57A94591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BE68F6-5081-4638-8631-8CFD57A94591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA6570C-53A0-4A34-B756-9FCD27196A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA6570C-53A0-4A34-B756-9FCD27196A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA6570C-53A0-4A34-B756-9FCD27196A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA6570C-53A0-4A34-B756-9FCD27196A79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7674771-1ECB-4087-84C2-28408F6DA664}
+	EndGlobalSection
+EndGlobal
